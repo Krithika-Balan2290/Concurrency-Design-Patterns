@@ -5,27 +5,32 @@ Guarded suspension is used only when the developer is aware of the fact that the
 
 ###Implementation:
 
- >Below is a program in Java to show the implementation shows the implementation of the guarded suspension:
- >public class Example {
-   >synchronized void guardedMethod() {
-    >while (!preCondition()) {
-     >try {
-       >//Continue to wait
-       >wait();
-       >//…
-      >} catch (InterruptedException e) {
-       >//…
-      >}
-    >}
-    >//Actual task implementation
-   >}
-   >synchronized void alterObjectStateMethod() {
-     >//Change the object state
-     >//…..
-     >//Inform waiting threads
-     >notify();
-   >}
->}
+```
+
+Below is a program in Java to show the implementation shows the implementation of the guarded suspension:
+ public class Example {
+   synchronized void guardedMethod() {
+    while (!preCondition()) {
+     try {
+       //Continue to wait
+       wait();
+      //…
+      } catch (InterruptedException e) {
+     //…
+     }
+   }
+   //Actual task implementation
+   }
+   synchronized void alterObjectStateMethod() {
+     //Change the object state
+     //…..
+     //Inform waiting threads
+     notify();
+   }
+}
+
+```
+
 The wait() and the notify() method are used to assist the guarded suspension
 Wait() is used to detect when there are no items in the queue. Once the other method notifies the other methods the  wait() can exit the guarded state and proceed with a call. Once the queue is empty the  wait() will enter the guarded state again.
 ![image](http://openhome.cc/Gossip/DesignPattern/images/GuardedSuspension-1.jpg)
