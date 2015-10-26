@@ -14,6 +14,7 @@ Specifies an interface consisting of a hook method [3] that abstractly represent
 ###Concrete Event Handler 
   Implements the hook method, as well as the methods to process these events in an application-specific manner. Applications register Concrete Event Handlers with the Initiation Dispatcher to process certain types of events. When these events arrive, the Initiation Dispatcher calls back the hook method of the appropriate Concrete Event Handler. There are two Concrete Event Handlers in the logging server: Logging Handler and Logging Acceptor. The Logging Handler is responsible for receiving and processing logging records. The Logging Acceptor creates and connects Logging Handlers that process subsequent logging records from clients. The structure of the participants of the Reactor pattern is illustrated in the following OMT class diagram:
 ![image](http://dos.iitm.ac.in/OOSD_Material/OOSWLifeCycle/Reuse%20Mechanisms/Architec%20patterns/img/img1.jpg)
+[10]
 
 <Text Here>
 
