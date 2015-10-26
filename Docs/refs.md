@@ -11,6 +11,9 @@
 9.	Schmidt, Douglas C. " Double-Checked Locking Optimization." Pattern-oriented Software Architecture: Patterns for Concurrent and Distributed Objects, Volume 2. New York: Wiley, 2000. N. pag. Print.
 10.	https://www.dre.vanderbilt.edu/~schmidt/PDF/Reactor.pdf
 11.	http://www.cs.wustl.edu/~schmidt/PDF/monitor.pdf
+12.	https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock
+13.	https://en.wikipedia.org/wiki/Thread_pool_pattern
+14.	https://en.wikipedia.org/wiki/Guarded_suspension
 
 
 
