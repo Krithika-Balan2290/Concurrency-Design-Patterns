@@ -27,6 +27,6 @@ A servant method is the interface between the proxy and the actual implementatio
 A Future is an object in which the servant stores its result once it finishes executing. When a client thread wants to access the result of a method execution, it checks the future for the result. The client thread can either poll the future until a result is available or it can block until the servant completes execution and stores the result in the future object.
 
 
-[Prev Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/structural.md) | [Next Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/balking.md)
+[Prev Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Types.md) | [Next Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/balking.md)
  
  [Back to contents](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Index.md)
