@@ -11,7 +11,7 @@ RW locks allow for maximum concurrency, but can lead to write-starvation if cont
 ######	Write-preferring 
 RW locks avoid the problem of writer starvation by preventing any new readers from acquiring the lock if there is a writer queued and waiting for the lock. The writer will then acquire the lock as soon as all readers which were already holding the lock have completed.[3] The downside is that write-preferring locks allows for less concurrency in the presence of writer threads, compared to read-preferring RW locks. Also the lock is less performant because each operation, taking or releasing the lock for either read or write, is more complex, internally requiring taking and releasing two mutexes instead of one. This variation is sometimes also known as "write-biased" readers–writer lock. 
 ######	Unspecified priority 
-RW locks does not provide any guarantees with regards read vs. write access. Unspecified priority can in some situations be preferable if it allows for a more efficient implementation. [10](http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-579.pdf]
+RW locks does not provide any guarantees with regards read vs. write access. Unspecified priority can in some situations be preferable if it allows for a more efficient implementation. [10]
 
 
 
