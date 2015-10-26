@@ -7,11 +7,11 @@
 
 2. [Types of Design Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Types.md)
 
-  2.1. [Behavioral Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/behavioral.md)
+  2.1. [Behavioral Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Types.md)
   
-  2.1. [Creational Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Creational.md)
+  2.2. [Creational Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Types.md)
   
-  2.1. [Structural Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/structural.md)
+  2.3. [Structural Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Types.md)
  
 3. [Concurrency Design Patterns](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/active.md)
 
