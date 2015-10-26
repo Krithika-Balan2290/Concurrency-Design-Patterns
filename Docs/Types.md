@@ -1,7 +1,17 @@
 #Types of Design Patterns
 
-<Text Here>
+#Behavioral Patterns
+Behavioral patterns are design patterns that are explain how the objects react. It describes how different objects and classes interact with each other by sending messages. They objects and classes talk to each other about how to do things and also how to divide a class amongst themselves. Behavioral patterns describe the flow. Behavioral patterns describe the pattern of communication between classes and objects. These patterns use inheritance to distribute communication between classes and objects. There are several kind of behavioral patterns. The template form and interpreter method are the most common type.
+Template method is the most common kind of behavioral pattern. The template method makes use of abstract definition of the algorithm. It defines the algorithm step by step. Each step invokes either an abstract operation or a primitive operation. A subclass fleshes out the algorithm by defining the abstract operations. The other kind of pattern is the interpreter method which represents grammar as a class hierarchy and implements an interpreter as an operation on instances of these classes.
+There are several other kinds of behavioral patterns like the chain of responsibity and the observer. The other methods of behavioral pattern make use of encapsulation where we encapsulate the algorithm and delegate requests to it.
 
-[Prev Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Intro.md) | [Next Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/behavioral.md)
+#Creational Patterns
+Creational design patterns abstract the instantiation process. They help make a system independent of how its objects are created, composed, and represented. A class creational pattern uses inheritance to vary the class that's instantiated, whereas an object creational pattern will delegate instantiation to another object. Creational patterns become important as systems evolve to depend more on object composition than class inheritance. As that happens, emphasis shifts away from hard-coding a fixed set of behaviors toward defining a smaller set of fundamental behaviors that can be composed into any number of more complex ones. Thus creating objects with particular behaviors requires more than simply instantiating a class.
+
+#Structural Patterns
+Structural patterns are concerned with how classes and objects are composed to form larger structures. Structural class patterns use inheritance to compose interfaces or implementations. As a simple example, consider how multiple inheritance mixes two or more classes into one. The result is a class that combines the properties of its parent classes. This pattern is particularly useful for making independently developed class libraries work together. Another example is the class form of the Adapter pattern. In general, an adapter makes one interface (the adaptee's) conform to another, thereby providing a uniform abstraction of different interfaces. A class adapter accomplishes this by inheriting privately from an adaptee class. The adapter then expresses its interface in terms of the adaptee's. 
+Rather than composing interfaces or implementations, structural object patterns describe ways to compose objects to realize new functionality. The added flexibility of object composition comes from the ability to change the composition at run-time, which is impossible with static class composition.
+
+[Prev Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/Intro.md) | [Next Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/active.md)
  
  [Back to contents](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Index.md)
