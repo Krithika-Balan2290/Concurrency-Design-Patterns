@@ -10,7 +10,8 @@
 8.	Thompson, Martin; Farley, Dave; Barker, Michael; Gee, Patricia; Stewart, Andrew (2011). Disruptor: High performance alternative to bounded queues for exchanging data between concurrent threads (Technical report). LMAX.
 9.	Schmidt, Douglas C. " Double-Checked Locking Optimization." Pattern-oriented Software Architecture: Patterns for Concurrent and Distributed Objects, Volume 2. New York: Wiley, 2000. N. pag. Print.
 10.	https://www.dre.vanderbilt.edu/~schmidt/PDF/Reactor.pdf
-11.	
+11.	http://www.cs.wustl.edu/~schmidt/PDF/monitor.pdf
+
 
 
 [Prev Page](https://github.com/Krithika-Balan2290/Concurrency-Design-Patterns/blob/master/Docs/thread_pools.md)
